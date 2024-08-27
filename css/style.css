@@ -20,6 +20,7 @@ body {
     align-items: center;
     padding: 20px 20px;
     background-color: #f1a536;
+    border-bottom: white 5px solid;
 }
 
 nav ul {
@@ -43,21 +44,91 @@ nav ul li a {
 .hero {
     position: relative;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 5px;
-    text-align: center;
-    height: 900px;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url("../images/hero-image.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 700px;
     width: 100%;
 }
 
 .startweek {
-    position: absolute;
-    /* display: inherit; */
     background-color: white;
     padding: 20px 20px;
-    bottom: 10px;
-    right: 10px;
-    font-size: 24px;
+    font-size: 50px;
+    font-weight: bolder;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.categories {
+    background-color: #f8f8f8;
+    padding: 10x 20px;
+    width: 100%;
+}
+
+.categories h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.categories p {
+    max-width: 70%;
+    margin: 0 auto 30px;
+    font-size: 30px;
+}
+
+.category-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    /* background-color: #fff;
+    border: 1px solid #ddd; */
+    padding: 10px;
+    text-align: center;
+    max-width: 440px;
+    flex: 1;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    width: 580px;
+    height: 300px;
+}
+
+.card p {
     font-weight: bold;
+    color: #333;
+    font-size: 20px;
+}
+
+.recipesoftheweek {
+    background-color: #92ccc2;
+    padding: 10x 20px;
+    width: 400%;
+}
+
+.recipesoftheweek h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.recipesoftheweek p {
+    max-width: 70%;
+    margin: 0 auto 30px;
+    font-size: 30px;
+}
+
+.recipesoftheweek-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
