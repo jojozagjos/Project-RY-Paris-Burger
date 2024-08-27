@@ -51,6 +51,7 @@ nav ul li a {
     background-position: top;
     height: 700px;
     width: 100%;
+    margin-bottom: 100px;
 }
 
 .startweek {
@@ -63,14 +64,16 @@ nav ul li a {
 }
 
 .categories {
-    background-color: #f8f8f8;
     padding: 10x 20px;
     width: 100%;
 }
 
 .categories h2 {
-    text-align: center;
+    text-align: left;
+    margin-left: 280px;
     margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 1000;
 }
 
 .categories p {
@@ -110,14 +113,17 @@ nav ul li a {
 }
 
 .recipesoftheweek {
-    background-color: #92ccc2;
+    background-color: #dadfea;
     padding: 10x 20px;
-    width: 400%;
+    width: 100%;
 }
 
 .recipesoftheweek h2 {
-    text-align: center;
+    text-align: left;
+    margin-left: 280px;
     margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 1000;
 }
 
 .recipesoftheweek p {
@@ -131,4 +137,27 @@ nav ul li a {
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+}
+
+.recipecard {
+    /* background-color: #fff;
+    border: 1px solid #ddd; */
+    padding: 10px;
+    text-align: center;
+    max-width: 320px;
+    flex: 1;
+}
+
+.recipecard img {
+    max-width: 100%;
+    height: auto;
+    width: 500px;
+    height: 200px;
+}
+
+.recipecard p {
+    background-color: white;
+    padding: 20px;
+    max-width: 100%;
+    font-size: 20px;
 }
