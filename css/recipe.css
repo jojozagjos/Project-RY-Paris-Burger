@@ -175,6 +175,33 @@ nav ul li a:hover {
     color: #5e5d5d;
 }
 
+.instructions {
+    display: flex;
+    width: 100%;
+    padding: 40px 200px;
+    font-size: 30px;
+    padding-bottom: 200px;
+}
+
+.ingredientslist, .spicemix {
+    margin-top: 30px;
+    list-style: circle;
+    padding-right: 200px;
+}
+
+.ingredientslist li, .spicemix li{
+    margin-top: 10px;
+}
+
+.directions, .grilltiming {
+    margin-top: 30px;
+    list-style: decimal;
+}
+
+.directions li, .grilltiming li{
+    margin-top: 30px;
+}
+
 .footer {
     display: flex;
     padding: 40px 20px;
