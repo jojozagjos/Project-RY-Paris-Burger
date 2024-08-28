@@ -45,6 +45,13 @@ nav ul li a {
     font-size: 22px;
 }
 
+nav ul li a:hover {
+    text-decoration: none;
+    color: #ececec;
+    font-weight: bolder;
+}
+
+
 .hero {
     position: relative;
     display: flex;
