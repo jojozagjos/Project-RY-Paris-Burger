@@ -48,7 +48,7 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: none;
     color: #ececec;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 
@@ -225,6 +225,11 @@ nav ul li a:hover {
     padding: 20px;
     max-width: 100%;
     font-size: 20px;
+}
+
+iframe {
+    display: flex;
+    align-items: center;
 }
 
 .footer {
